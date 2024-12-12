@@ -9,7 +9,7 @@ const processPromos = (
   validatePromos: boolean,
   maxPromo?: number
 ) => {
-  
+  return cart
 };
 
 export default processPromos;

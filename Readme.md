@@ -5,7 +5,6 @@ An ecommerce website wants to implement a new feature related to promos in their
 All of the promos operate based on [promo groups](./sample/promoGroups.json) and [promo configurations](./sample/promos.json)
 
 ## Promo Types
-
 ### Pilón
 If you buy dishwasher soap, you get a sponge for free
 
@@ -140,3 +139,26 @@ Interpretation: If you're getting `ProductBuy_QTY` items of group `ProductGroupB
 ````
 
 Interpretation: If you're getting `ProductBuy_QTY` items of group `ProductGroupBuy_ID`, you get `ProductGet_QTY` items of group `ProductGroupGet_ID` paying only `DiscountAmount_AMT`
+
+## Task
+Implement as many promos as you can.
+
+This repo has samples of promos, promo_groups and a cart to work with.
+
+Download the repo and run
+
+Terminal 1
+```cmd
+npm install
+npm run dev
+```
+
+Terminal 2
+```cmd
+npm run devServer
+```
+
+Now in a browser, just go to `localhost:400/promos` and the processed cart will be printed.
+![initial cart](./docs/initial_cart.png)
+
+You are responsible of processing the cart based on `cart.original` with all promos that apply and generate `cart.final` with the items that should be paid, and the detail of the applied promos
