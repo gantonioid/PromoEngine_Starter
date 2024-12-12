@@ -1,0 +1,40 @@
+{
+  "original": {
+    "total": 82,
+    "countItems": 2,
+    "deliveryDate": "",
+    "deliveryFee": 0,
+    "items": [
+      {
+        "quantity": 2,
+        "productId": "7501058757555",
+        "Weight_Each": 0,
+        "productName": "Tinte rubio",
+        "alternPrice": 41,
+        "productPrice": 41,
+        "SKU": "116867",
+        "photo": "",
+        "Presentacion": "600 ML"
+      },
+      {
+        "quantity": 2,
+        "productId": "7501058757548",
+        "Weight_Each": 0,
+        "productName": "Crema corporal",
+        "alternPrice": 41,
+        "productPrice": 41,
+        "SKU": "104501",
+        "photo": "",
+        "Presentacion": "650 ML"
+      }
+    ]
+  },
+  "final": {
+    "total": 0,
+    "countItems": 0,
+    "deliveryDate": "",
+    "deliveryFee": 0,
+    "items": [],
+    "promos": []
+  }
+}
